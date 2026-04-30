@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #1a1a1a;
+    color: #eee;
+    line-height: 1.4;
+}
+
+.page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 1.35rem;
+    margin: 0 0 1rem;
+}
+
+h2 {
+    font-size: 1rem;
+    margin: 0 0 0.75rem;
+}
+
+.box {
+    background: #252525;
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.msg {
+    margin: 0 0 1rem;
+    padding: 0.5rem 0.65rem;
+    background: #333;
+    border-radius: 6px;
+}
+
+.muted {
+    color: #999;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0.4rem 0.5rem;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+th {
+    color: #aaa;
+}
+
+form p {
+    margin: 0 0 0.5rem;
+}
+
+label {
+    display: block;
+    font-size: 0.85rem;
+    color: #bbb;
+}
+
+input {
+    width: 100%;
+    max-width: 280px;
+    margin-top: 0.2rem;
+    padding: 0.45rem 0.5rem;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background: #1a1a1a;
+    color: #eee;
+}
+
+button {
+    padding: 0.45rem 0.85rem;
+    border: none;
+    border-radius: 6px;
+    background: #4c6ef5;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button.del {
+    background: #c92a2a;
+}
